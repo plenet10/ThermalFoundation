@@ -74,7 +74,7 @@ public class BlockOre extends Block implements IInitializer {
 
 	/* IInitializer */
 	@Override
-	public boolean preInit() {
+	/*public boolean preInit() {
 
 		GameRegistry.registerBlock(this, ItemBlockOre.class, "Ore");
 
@@ -131,3 +131,4 @@ public class BlockOre extends Block implements IInitializer {
 	public static ItemStack oreMithril;
 
 }
+*\
